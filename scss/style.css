@@ -1,0 +1,51 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(74, 212, 99, 0.784);
+  color: rgba(34, 129, 13, 0.8274509804);
+}
+body header {
+  background: rgba(121, 241, 241, 0.8156862745);
+  color: rgba(47, 150, 228, 0.888);
+  padding: 2%;
+  text-align: center;
+}
+
+nav a {
+  color: rgba(251, 255, 0, 0.888);
+  text-decoration: none;
+}
+
+section {
+  padding: 2%;
+  margin: 2%;
+  border: 1px solid #077205;
+  border-radius: 10px;
+  background: rgba(135, 255, 106, 0.8666666667);
+  position: relative;
+}
+section:hover {
+  background: rgba(10, 255, 247, 0.773);
+}
+
+.imaAhav {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.imaAhav:hover {
+  background: url(../images/Ahav_img.jpg);
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 1%;
+  background: rgba(83, 211, 227, 0.8784313725);
+  color: rgb(79, 135, 220);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

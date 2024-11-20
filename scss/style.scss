@@ -1,0 +1,61 @@
+
+$main-bcg-color:rgba(74, 212, 99, 0.784);
+
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: $main-bcg-color;
+    color: #22810dd3;
+
+      header {
+        background: #79f1f1d0;
+        color: rgba(47, 150, 228, 0.888);
+        padding: 2%;
+        text-align: center;
+      }
+
+  }
+    
+  nav a {
+    color: rgba(251, 255, 0, 0.888);
+    text-decoration:none;
+  }
+  
+
+  section {
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid #077205;
+    border-radius: 10px;
+    background: #87ff6add;
+    position: relative;
+
+    &:hover {
+      background: rgba(10, 255, 247, 0.773);
+    }
+  }
+
+  .imaAhav {
+    display: block;
+    width: 100%;
+    height: auto;
+
+      &:hover{
+        background: url(../images/Ahav_img.jpg);
+        width: 100%;
+      }
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1%;
+    background: #53d3e3e0;
+    color: rgb(79, 135, 220);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
